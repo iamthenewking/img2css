@@ -115,12 +115,14 @@ var App = React.createClass({
             <div className="tutorial">
               The code:
             </div>
-
+<textarea rows="4" cols="50">
             <div className="code">
+  
               {`<div style="height: 1px; width: 1px; box-shadow: ${masterShadow}"></div>`}
             </div>
           </div>}
-
+</textarea>
+  
       </div>
     );
   }
